@@ -1,0 +1,334 @@
+body {
+    background-image: url('../img/background.jpg');
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1024px;
+    margin: 0px auto;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+h2 {
+    padding-left: 40px;
+    color: #00aeef;
+}
+
+
+/* START HEADER */
+
+.photo {
+    height: 310px;
+    position: absolute;
+    top: 125px;
+    right: 1225px;
+}
+
+.header {
+    height: 272px;
+    text-align: center;
+    background-color: #414142;
+}
+
+.my-name {
+    text-transform: uppercase;
+    font-size: 32px;
+    padding-top: 165px;
+    text-transform: uppercase;
+    padding-left: 40px;
+    color: #ffffff;
+}
+
+.developer {
+    margin-left: -40px;
+    margin-top: -15px;
+    color: #949698;
+}
+
+/* END HEADER */
+
+
+/* START MAIN*/
+
+.main-content {
+    display: flex;
+}
+
+.main-block-left {
+    flex: 1.1;
+    margin-top: 139px;
+}
+
+.main-block-right {
+    flex: 2;
+}
+
+/* start personal */
+
+.personal {
+    line-height: 1.5;
+}
+
+.ul-personal {
+    display: flex;
+    padding-left: 40px;
+    color: #909395;
+    margin-bottom: 0px;
+}
+
+.ul-personal-left {
+    padding-left: 0px;
+}
+
+.ul-personal-right {
+    padding-left: 25px;
+}
+
+.line-1 {
+    height: 2px;
+    background-color: #bfc0c1;
+    margin-left: 40px;
+}
+
+/* end personal */
+
+/* start skills */
+
+.skills {
+    line-height: 1.5;
+}
+
+.skills-software {
+    display: flex;
+    padding-left: 0px;
+    color: #909395;
+    margin-bottom: 0px;
+}
+
+.skills-software-left {
+    padding-left: 40px;
+}
+
+.skills-software-right {
+    margin-top: 9px;
+    width: 170px;
+}
+
+.container {
+    background-color: #bfc0c1;
+    height: 8px;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 16px;
+    padding: 0px;
+}
+
+.line-color {
+    background-color: #414142;
+    height: 8px;
+}
+
+.communication {width: 77%;}
+.creativity {width: 70%;}
+.teamwork {width: 74%;}
+.organization {width: 67%;}
+.leadership {width: 50%;}
+.teamplayer {width: 94%;}
+
+.line-2 {
+    height: 2px;
+    background-color: #bfc0c1;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+/* end skills */
+
+/* start software */
+
+.software {
+    line-height: 1.5;
+}
+
+.photoshop {width: 55%;}
+.wordpress {width: 50%;}
+.javascript {width: 25%;}
+.ms-office {width: 88%;}
+.html-5 {width: 60%;}
+.css-3 {width: 50%;}
+
+.software-right {
+    padding-left: 47px;
+}
+
+/*end software*/
+
+/*start contact*/
+
+.contact > h2 {
+    padding-left: 40px;
+    color: #00aeef;
+}
+
+.contact {
+    line-height: 1.5;
+}
+
+.contact > ul {
+    display: flex;
+    color: #909395;
+}
+
+.contact > ul > p >img {
+    height: 35px;
+    padding-right: 15px;
+}
+
+.contact > ul > img {
+    height: 35px;
+    padding-right: 15px;
+}
+
+.contact > ul {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+.contact > ul > p {
+    margin: 0px
+}
+
+a {
+    text-decoration: none;
+    color: #909395;
+}
+
+a:hover {
+    color: #a80b0b;
+}
+
+/*end contact*/
+
+.line-long {
+    margin-left: 10px;
+    width: 2px;
+    height: 1200px;
+    background-color: #bfc0c1;
+}
+
+/*start profile*/
+
+.profile {
+    line-height: 1.5;
+}
+
+.profile > p {
+    height: 255px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #909395;
+    margin-bottom: 0px;
+}
+
+span {
+    color: #0b0204;
+}
+
+.line-3 {
+    height: 2px;
+    background-color: #bfc0c1;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+/*end profile*/
+
+/*start education*/
+
+li {
+    list-style-type: none;
+}
+
+.education-university {
+    display: flex;
+    font-size: 19px;
+    line-height: 40px;
+}
+
+.education-university li:nth-child(n+2) {
+    color: #909395;
+}
+
+/*end education*/
+
+/*start work*/
+
+.work-content-manager {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    font-size: 19px;
+}
+
+.work-p {
+    padding-left: 40px;
+    padding-right: 30px;
+    color: #909395;
+}
+
+.work-p > p {
+    margin: 0px;
+}
+
+/*end work*/
+
+/*start experience*/
+
+.experience-frontend {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+    color: #909395;
+}
+
+.experience-p {
+    padding-left: 40px;
+    padding-right: 15px;
+    color: #909395;
+}
+
+/*end experience*/
+
+/*start interests*/
+
+.interests {
+    font-size: 18px;
+}
+
+.interests-hobby {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 135px;
+    color: #414142;
+}
+
+/*end inerests*/
+
+footer {
+    height: 25px;
+    background-color: #414142;
+}
+
+/*
+Какие проблемы?
+
+1) Нужно правильно вставить фото. Убрать оттуда absolute и поставить или relative,
+или найти альтернативу.
+2) Нужно решить проблему и вставить line-long. Решил, но нужно подправить padding
+3) Подключить шрифты
+4) Адаптивная вёрстка
+*/
